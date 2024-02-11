@@ -12,7 +12,7 @@ function createWindow(): void {
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
     center: true,
-    title: 'SpendSmart Editor',
+    title: 'Sangrah',
     frame: false,
     vibrancy: 'under-window',
     visualEffectState: 'active',

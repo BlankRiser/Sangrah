@@ -1,4 +1,4 @@
-# SpendSmart Editor
+# Sangrah
 
 Manage expenses with meticulous detail.
 
@@ -6,7 +6,7 @@ Manage expenses with meticulous detail.
 
 Follow the instructions below to set up the project on your local machine.
 
-## Prerequisites
+### Prerequisites
 
 - [Node.js](https://nodejs.org/en/)
 - [pnpm](https://pnpm.io/)
