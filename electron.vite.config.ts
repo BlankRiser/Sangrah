@@ -19,12 +19,12 @@ export default defineConfig({
     assetsInclude: 'src/renderer/assets/**',
     resolve: {
       alias: {
+        '@/components': resolve('src/renderer/src/components/*'),
         '@renderer': resolve('src/renderer/src'),
         '@shared': resolve('src/shared'),
         '@/hooks': resolve('src/renderer/src/hooks'),
         '@/assets': resolve('src/renderer/src/assets'),
         '@/store': resolve('src/renderer/src/store'),
-        '@/components': resolve('src/renderer/src/components'),
         '@/mocks': resolve('src/renderer/src/mocks')
       }
     },
