@@ -1,8 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "new-york",
+  "style": "default",
   "rsc": false,
-  "tsx": true,
   "tailwind": {
     "config": "tailwind.config.js",
     "css": "src/renderer/src/assets/styles/main.css",
@@ -11,7 +10,6 @@
     "prefix": ""
   },
   "aliases": {
-    "components": "src/renderer/src/components",
-    "utils": "src/renderer/src/utils"
+    "components": "src/renderer/src/components"
   }
 }

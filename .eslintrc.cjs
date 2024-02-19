@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/explicit-function-return-type': 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    '@typescript-eslint/no-explicit-any': 'warn'
   }
 }
