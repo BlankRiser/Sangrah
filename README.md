@@ -39,3 +39,7 @@ $ pnpm build:linux
 ### Built with
 
 - [Icon set from Iconify.design](https://icon-sets.iconify.design/)
+
+### TODO
+
+- [ ] Use [electron-builder](https://www.electron.build/)

@@ -3,11 +3,18 @@ import { BrowserWindow, app, ipcMain, shell } from 'electron'
 import { join } from 'path'
 import icon from '../../resources/icon.png?asset'
 
+const DEFAULT_WIDTH = 1280
+const DEFAULT_HEIGHT = 720
+const MINIMUM_WIDTH = 500
+const MINIMUM_HEIGHT = 400
+
 function createWindow(): void {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 900,
-    height: 670,
+    width: DEFAULT_WIDTH,
+    height: DEFAULT_HEIGHT,
+    minHeight: MINIMUM_HEIGHT,
+    minWidth: MINIMUM_WIDTH,
     show: false,
     autoHideMenuBar: true,
     ...(process.platform === 'linux' ? { icon } : {}),
